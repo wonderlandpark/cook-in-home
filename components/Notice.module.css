@@ -1,0 +1,48 @@
+.container {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: inline-block;
+    border-right: 1px solid rgba(0, 0, 0,.3);
+    margin: 0;
+    margin-right: 20px;
+    padding: 10px 23px 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    text-align: left;
+    line-height: 49px;
+    height: 49px;
+    vertical-align: middle;
+}
+
+.desc {
+    border-top: 1px solid rgba(0, 0, 0,.3);
+    font-size: 20px;
+    font-weight: normal;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}

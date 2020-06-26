@@ -1,0 +1,15 @@
+.ui.container {
+    padding-top: 20px;
+}
+
+.contents {
+    padding-top: 30px;
+}
+
+.ui.input {
+    width: 100%;
+}
+
+.search > .results {
+    width: 100% !important;
+}
