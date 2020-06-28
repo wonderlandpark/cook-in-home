@@ -1,8 +1,12 @@
 import Head from 'next/head'
 import { Card, Image, Container, Label, Divider } from 'semantic-ui-react'
+import Notice from '../../components/Notice'
 
 function Things({ data, selected }) {
-    return (
+    if(selected.length === 747) return (
+        <Notice desc="냉장고가 묵직하네요~"/>
+    )
+    else return (
         <Container>
             <h1>냉장고에 있는 음식들로 만들 수 있는 것들이에요.</h1>
             <strong>선택한 재료</strong> { selected.map(el=> <Label tag>{el}</Label>)}
