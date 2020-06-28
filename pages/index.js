@@ -15,7 +15,7 @@ function Home({ featured }) {
   return (
     <div>
       <Head>
-        <title>집에서 요리하기</title>
+        <title>집콕 - 집에서 요리하기</title>
       </Head>
       <div style={{ background: '#D1DFE8', padding: '7%'}}>
         <h1>요리하시고 싶으세요?</h1>

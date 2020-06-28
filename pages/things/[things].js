@@ -8,6 +8,9 @@ function Things({ data, selected }) {
     )
     else return (
         <Container>
+            <Head>
+                <title>나의 냉장고</title>
+            </Head>
             <h1>냉장고에 있는 음식들로 만들 수 있는 것들이에요.</h1>
             <strong>선택한 재료</strong> { selected.map(el=> <Label tag>{el}</Label>)}
             <br/><br/>
