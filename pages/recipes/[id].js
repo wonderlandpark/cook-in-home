@@ -55,6 +55,6 @@ function Home({ info }) {
 
 Home.getInitialProps = async(ctx) => {
   const { getInfo } = require('../../utils')
-  return { info: getInfo(ctx.req.query.id) }
+  return { info: getInfo(ctx.query.id) }
 }
 export default Home
