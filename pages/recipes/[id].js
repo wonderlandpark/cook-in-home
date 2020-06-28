@@ -4,7 +4,6 @@ import { Container, Card, Label, Segment, Image, Grid, Icon } from 'semantic-ui-
 import { useEffect } from 'react'
 import Err from '../../components/Notice'
 function Home({ info }) {
-  console.log(info)
     if(!info) return(
       <Err header="404" desc="요청하신 음식은 존재하지 않습니다"/>
     )
